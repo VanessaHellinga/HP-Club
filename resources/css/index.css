@@ -55,7 +55,7 @@ html, body {
     color: #E6EDEA;
     font-family: 'Akaya Telivigala', cursive;
     font-size: 9rem;
-    padding: 5%;
+    padding: 2% 5%;
     border: 5px solid #ADAABF;
 }
 
@@ -93,12 +93,45 @@ html, body {
 }
 
 
-
-
+/*EXTRA IMG SECTION*/
+.ink--img--container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 1% 0;
+    background-color: #7C708C;
+}
+.ink--img {
+    width: 98%;
+}
 
 /*MEMBERS SECTION*/
+.member--title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 2rem;
+    color: #7C708C;
+}
 
+.member--container{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
 
+.member--box{
+    width: 18%;
+}
+.member--img {
+    width: 98%;
+    height: 88%;
+}
+.member--text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    padding-left: 8%;
+}
 
 /*PATTERNS SECTION*/
 
