@@ -69,6 +69,30 @@ html, body {
 }
 
 /*ABOUT MAIN*/
+.about--container {
+    width: 100%;
+    margin: 2%;
+    display: inline-flex;
+}
+
+.about--img {
+    width: 30%;
+    height: 50%;
+}
+
+.text--container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+}
+.about--text {
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 2%;
+    font-size: 1.5rem;
+}
+
+
 
 
 
