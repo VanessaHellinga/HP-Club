@@ -87,7 +87,19 @@ html, body {
         border: 2px solid #ADAABF;
     }
 }
-
+/*TABLET*/
+@media only screen and (min-width: 481px) and (max-width: 770px) {
+    .logo {
+        font-size: 7rem;
+        padding: 1% 2%;
+        border: 3px solid #ADAABF;
+    }
+    .sub--logo {
+        font-size: 2rem;
+        padding: 1.5%;
+        border: 2px solid #ADAABF;
+    }
+}
 /*ABOUT MAIN*/
 .about--container {
     width: 100%;
@@ -113,6 +125,7 @@ html, body {
     font-size: 1.5rem;
     color: #0D0000;
 }
+/*SMART PHONE*/
 @media only screen and (max-width: 480px) {
     .about--container {
         width: 100%;
@@ -135,7 +148,14 @@ html, body {
         font-size: 1rem;   
     }      
 }
-
+/*TABLET*/
+@media only screen and (min-width: 481px) and (max-width: 770px) {
+    .about--img {
+        padding: 30% 0;
+        width: 30%;
+        background-color: #381E40;
+    }
+}
 /*EXTRA IMG SECTION*/
 .ink--img--container{
     display: flex;
@@ -148,7 +168,7 @@ html, body {
 .ink--img {
     width: 98%;
 }
-
+/*SMART PHONE*/
 @media only screen and (max-width: 480px) {
     .ink--img--container{
         padding: 4% 0;
@@ -166,13 +186,11 @@ html, body {
     font-size: 2rem;
     color: #7C708C;
 }
-
 .member--container{
     display: inline-flex;
     justify-content: space-evenly;
     padding-bottom: 10%;
 }
-
 .member--box{
     width: 18%;
 }
@@ -186,6 +204,7 @@ html, body {
     padding-left: 8%;
     color: #0D0000;
 }
+/*SMART PHONE*/
 @media only screen and (max-width: 480px){
     .member--title {
         font-size: 1.5rem;
@@ -215,7 +234,6 @@ html, body {
     background-color: #E6EDEA;
     padding: 5% 0;
 }
-
 .knits--img {
     width: 80%;
     height: auto;   
@@ -228,7 +246,6 @@ html, body {
     font-size: 9rem;
     border: 12px solid #ADAABF;
 }
-
 .knits--text {
     line-height: 2rem;
     font-family: 'Montserrat', sans-serif;
@@ -236,7 +253,6 @@ html, body {
     font-size: 1.5rem;
     color: #0D0000;
 }
-
 .button {
     width: 14%;
     margin: 5% 37%;
@@ -244,23 +260,19 @@ html, body {
     background-color: #381E40;
     border-radius: 10px;   
 }
-
 .button a {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     color: #E6EDEA;
     text-decoration: none;
 }
-
 .button:hover {
     background-color: #0D0000;
 }
-
 .dobby--img {
     width: 100%;
     height: auto;
 }
-
 .dobby--quote--container {
     list-style-type: none;
     padding: 2.5% 30%;
@@ -272,12 +284,13 @@ html, body {
     background-color: #0D0000; 
     margin-top: 1%;
 }
+/*SMART PHONE*/
 @media only screen and (max-width: 480px){
     .knits--container {
         padding: 3% 0;
     }
     .knits--slogan {
-        font-size: 2rem;
+        font-size: 3rem;
         border: 6px solid #ADAABF;
     }
     .knits--text {
@@ -304,6 +317,33 @@ html, body {
         margin-bottom: 2%;
     }
 }
+/*TABLET*/
+@media only screen and (min-width: 481px) and (max-width: 770px){
+    .knits--slogan {
+        font-size: 5rem;
+        border: 9px solid #ADAABF;
+    }
+    .knits--text {
+        padding-left: 5%;
+        width: 90%;
+    }
+    .button {
+        width: 18%;
+        margin: 5% 37%;
+        padding: 1%;  
+    }
+    .button a {
+        font-size: 1.5rem;
+    }
+    .dobby--quote--container {
+        width: 100%;
+        padding-left: 25%;
+        line-height: 2.3rem;
+        font-size: 1.2rem;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+}
 
 /*FOOTER JOIN/DONATE/CONTACT*/
 .footer--container {
@@ -324,6 +364,7 @@ html, body {
     font-size: 2rem;
     color: #4F4C59;
 }
+/*SMART PHONE*/
 @media only screen and (max-width: 480px) {
     .badge--img{
         width: 100%;
@@ -334,7 +375,17 @@ html, body {
         font-size: 0.80rem;
     }
 }
-
+/*TABLET*/
+@media only screen and (min-width: 481px) and (max-width: 770px) {
+    .badge--img{
+        width: 100%;
+        height: auto;
+    }
+    .footer--list {
+        line-height: 2rem;
+        font-size: 1.2rem;
+    }
+}
 
 
 
