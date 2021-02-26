@@ -28,6 +28,13 @@ html, body {
     font-weight: 400;
 }
 
+@media only screen and (max-width: 415px) {
+    .header--list {
+        justify-content: space-between;
+        padding-right: 10%;
+    }
+}
+
 /*BANNER*/
 .banner--container {
     display: flex;
