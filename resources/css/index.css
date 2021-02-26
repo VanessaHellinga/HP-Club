@@ -84,7 +84,7 @@ html, body {
     }
 }
 /*TABLET*/
-@media only screen and (min-width: 481px) and (max-width: 770px) {
+@media only screen and (min-width: 481px) and (max-width: 870px) {
     .logo {
         font-size: 7rem;
         padding: 1% 2%;
@@ -144,7 +144,7 @@ html, body {
     }      
 }
 /*TABLET*/
-@media only screen and (min-width: 481px) and (max-width: 770px) {
+@media only screen and (min-width: 481px) and (max-width: 870px) {
     .about--img {
         padding: 30% 0;
         width: 30%;
@@ -318,7 +318,7 @@ html, body {
     }
 }
 /*TABLET*/
-@media only screen and (min-width: 481px) and (max-width: 770px){
+@media only screen and (min-width: 481px) and (max-width: 870px){
     .knits--slogan {
         font-size: 5rem;
         border: 9px solid #ADAABF;
@@ -376,7 +376,7 @@ html, body {
     }
 }
 /*TABLET*/
-@media only screen and (min-width: 481px) and (max-width: 770px) {
+@media only screen and (min-width: 481px) and (max-width: 870px) {
     .badge--img{
         width: 100%;
         height: auto;
