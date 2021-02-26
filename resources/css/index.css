@@ -169,18 +169,22 @@ html, body {
     color: #0D0000;
 }
 
-button {
-    padding: 4%;
-    margin-left: 37%;
-    margin-bottom: 2%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
+.button {
+    width: 14%;
+    margin: 5% 37%;
+    padding: 3%;
     background-color: #381E40;
-    border-radius: 10px;
-    color: #E6EDEA;
+    border-radius: 10px;   
 }
 
-button:hover {
+.button a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #E6EDEA;
+    text-decoration: none;
+}
+
+.button:hover {
     background-color: #0D0000;
 }
 
