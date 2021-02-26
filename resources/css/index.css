@@ -149,7 +149,14 @@ html, body {
     width: 98%;
 }
 
-@
+@media only screen and (max-width: 415px) {
+    .ink--img--container{
+        padding: 4% 0;
+    }
+    .ink--img {
+        width: 96%;
+    }  
+}
 
 /*MEMBERS SECTION*/
 .member--title {
