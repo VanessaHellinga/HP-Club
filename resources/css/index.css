@@ -73,6 +73,7 @@ html, body {
     width: 100%;
     margin: 2%;
     display: inline-flex;
+    padding: 5% 0;
 }
 
 .about--img {
@@ -90,6 +91,7 @@ html, body {
     font-family: 'Montserrat', sans-serif;
     padding-left: 2%;
     font-size: 1.5rem;
+    color: #0D0000;
 }
 
 
@@ -118,6 +120,7 @@ html, body {
 .member--container{
     display: inline-flex;
     justify-content: space-evenly;
+    padding-bottom: 10%;
 }
 
 .member--box{
@@ -131,10 +134,70 @@ html, body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     padding-left: 8%;
+    color: #0D0000;
 }
 
 /*PATTERNS SECTION*/
+.knits--container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: relative;
+    justify-content: center;
+    background-color: #E6EDEA;
+    padding: 5% 0;
+}
 
+.knits--img {
+    width: 80%;
+    height: auto;   
+}
+.knits--slogan {
+    position: absolute;
+    background-color: #4F4C59;
+    color: #E6EDEA;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 9rem;
+    border: 12px solid #ADAABF;
+}
 
+.knits--text {
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 2%;
+    font-size: 1.5rem;
+    color: #0D0000;
+}
 
+button {
+    padding: 4%;
+    margin-left: 37%;
+    margin-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    background-color: #381E40;
+    border-radius: 10px;
+    color: #E6EDEA;
+}
+
+button:hover {
+    background-color: #0D0000;
+}
+
+.dobby--img {
+    width: 100%;
+    height: auto;
+}
+
+.dobby--quote--container {
+    list-style-type: none;
+    padding: 2.5% 30%;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color:#E6EDEA;
+    background-color: #0D0000; 
+    margin-top: 1%;
+}
 /*FOOTER JOIN/DONATE/CONTACT*/
