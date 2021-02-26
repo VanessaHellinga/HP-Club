@@ -74,7 +74,7 @@ html, body {
     padding: 3%;
     border: 5px solid #ADAABF;
 }
-
+/*SMART PHONE*/
 @media only screen and (max-width: 480px) {
     .logo {
         font-size: 4rem;
@@ -290,6 +290,7 @@ html, body {
         width: 23%;
         margin: 5% 33%;
         padding: 1.5%; 
+        background-color:#381E40;
     }
     .button a {
         font-size: 1rem;
@@ -323,7 +324,7 @@ html, body {
     font-size: 2rem;
     color: #4F4C59;
 }
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 480px) {
     .badge--img{
         width: 100%;
         height: auto;
