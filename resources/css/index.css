@@ -131,10 +131,10 @@ html, body {
         padding: 0;
     }
     .about--img {
-        width: 50%;
-        height: 60%;
+        width: 80%;
+        height: 80%;
         background-color: #381E40;
-        padding: 0 25%;
+        padding: 0 10%;
 
     }
     .text--container{
