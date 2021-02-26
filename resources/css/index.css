@@ -28,7 +28,7 @@ html, body {
     font-weight: 400;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 480px) {
     .header--list {
         justify-content: space-between;
         padding-right: 10%;
@@ -75,7 +75,7 @@ html, body {
     border: 5px solid #ADAABF;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 480px) {
     .logo {
         font-size: 4rem;
         padding: 1% 2%;
@@ -113,7 +113,7 @@ html, body {
     font-size: 1.5rem;
     color: #0D0000;
 }
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 480px) {
     .about--container {
         width: 100%;
         margin-top: 2%;
@@ -149,7 +149,7 @@ html, body {
     width: 98%;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 480px) {
     .ink--img--container{
         padding: 4% 0;
     }
@@ -186,7 +186,7 @@ html, body {
     padding-left: 8%;
     color: #0D0000;
 }
-@media only screen and (max-width: 415px){
+@media only screen and (max-width: 480px){
     .member--title {
         font-size: 1.5rem;
     }
@@ -272,7 +272,7 @@ html, body {
     background-color: #0D0000; 
     margin-top: 1%;
 }
-@media only screen and (max-width: 415px){
+@media only screen and (max-width: 480px){
     .knits--container {
         padding: 3% 0;
     }
@@ -282,11 +282,12 @@ html, body {
     }
     .knits--text {
         line-height: 1.2rem;
-        padding-left: 0;
+        padding-left: 5%;
         font-size: 1rem;  
+        width: 90%;
     }
     .button {
-        width: 25%;
+        width: 23%;
         margin: 5% 33%;
         padding: 1.5%; 
     }
@@ -299,6 +300,7 @@ html, body {
         line-height: 1.5rem;
         font-size: 0.75rem;
         margin-top: 0.5%;
+        margin-bottom: 2%;
     }
 }
 
