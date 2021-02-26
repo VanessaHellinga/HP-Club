@@ -303,7 +303,6 @@ html, body {
 }
 
 /*FOOTER JOIN/DONATE/CONTACT*/
-
 .footer--container {
     display: flex;
     flex-wrap: wrap;
@@ -322,7 +321,16 @@ html, body {
     font-size: 2rem;
     color: #4F4C59;
 }
-
+@media only screen and (max-width: 415px) {
+    .badge--img{
+        width: 100%;
+        height: auto;
+    }
+    .footer--list {
+        line-height: 1.5rem;
+        font-size: 0.80rem;
+    }
+}
 
 
 
