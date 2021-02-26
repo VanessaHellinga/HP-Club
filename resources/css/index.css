@@ -145,11 +145,24 @@ html, body {
 }
 /*TABLET*/
 @media only screen and (min-width: 481px) and (max-width: 870px) {
-    .about--img {
-        padding: 30% 0;
-        width: 30%;
-        background-color: #381E40;
+    .about--container {
+        width: 100%;
+        margin-top: 2%;
+        margin-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
     }
+    .about--img {
+        width: 100%;
+        height: 40%;
+    }
+    .text--container{
+        width: 90%;
+    }
+    .about--text {
+        padding-left: 5%; 
+    }   
 }
 
 /*EXTRA IMG SECTION*/
