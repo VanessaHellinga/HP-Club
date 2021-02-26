@@ -13,27 +13,26 @@ html, body {
     height: 20%;
     background-color: #E6EDEA;
 }
-
 .header--list {
     display: inline-flex;
     width: 100%;
     justify-content: space-around;
     list-style-type: none;
 }
-
 .list--items {
     text-decoration: none;
     color: #4F4C59;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
-
+/*SMART PHONE*/
 @media only screen and (max-width: 480px) {
     .header--list {
         justify-content: space-between;
         padding-right: 10%;
     }
 }
+/*TABLET NONE*/
 
 /*BANNER*/
 .banner--container {
@@ -42,12 +41,10 @@ html, body {
     height: 90%;
     position: relative;
 }
-
 .banner--img {
     width: 100%;
     height: auto; 
 }
-
 .logo--container {
     z-index: 1;
     position: absolute;
@@ -55,8 +52,8 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    opacity: 0.8;
 }
-
 .logo {
     background-color: #7C708C;
     color: #E6EDEA;
@@ -65,7 +62,6 @@ html, body {
     padding: 2% 5%;
     border: 5px solid #ADAABF;
 }
-
 .sub--logo {
     background-color: #7C708C;
     color: #E6EDEA;
@@ -100,6 +96,7 @@ html, body {
         border: 2px solid #ADAABF;
     }
 }
+
 /*ABOUT MAIN*/
 .about--container {
     width: 100%;
@@ -107,12 +104,10 @@ html, body {
     display: inline-flex;
     padding: 5% 0;
 }
-
 .about--img {
     width: 30%;
     height: 50%;
 }
-
 .text--container{
     display: flex;
     flex-wrap: wrap;
@@ -156,6 +151,7 @@ html, body {
         background-color: #381E40;
     }
 }
+
 /*EXTRA IMG SECTION*/
 .ink--img--container{
     display: flex;
@@ -177,6 +173,7 @@ html, body {
         width: 96%;
     }  
 }
+/*TABLET NONE*/
 
 /*MEMBERS SECTION*/
 .member--title {
@@ -223,6 +220,7 @@ html, body {
         padding-left: 2%;  
     }
 }
+/*TABLET NONE*/
 
 /*PATTERNS SECTION*/
 .knits--container {
@@ -245,6 +243,7 @@ html, body {
     font-family: 'Akaya Telivigala', cursive;
     font-size: 9rem;
     border: 12px solid #ADAABF;
+    opacity: 0.9;
 }
 .knits--text {
     line-height: 2rem;
@@ -268,6 +267,7 @@ html, body {
 }
 .button:hover {
     background-color: #0D0000;
+    cursor: pointer;
 }
 .dobby--img {
     width: 100%;
