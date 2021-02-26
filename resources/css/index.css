@@ -186,6 +186,24 @@ html, body {
     padding-left: 8%;
     color: #0D0000;
 }
+@media only screen and (max-width: 415px){
+    .member--title {
+        font-size: 1.5rem;
+    }
+    .member--container{
+        display: inline-flex;
+        justify-content: space-evenly;
+        padding-bottom: 15%;
+    }
+    .member--img {
+        width: 90%;
+        height: 80%;
+    }
+    .member--text {
+        font-size: 0.5rem;
+        padding-left: 2%;  
+    }
+}
 
 /*PATTERNS SECTION*/
 .knits--container {
