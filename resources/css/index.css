@@ -131,8 +131,11 @@ html, body {
         padding: 0;
     }
     .about--img {
-        width: 100%;
-        height: 40%;
+        width: 50%;
+        height: 60%;
+        background-color: #381E40;
+        padding: 0 25%;
+
     }
     .text--container{
         width: 90%;
@@ -154,8 +157,10 @@ html, body {
         padding: 0;
     }
     .about--img {
-        width: 100%;
-        height: 40%;
+        width: 50%;
+        height: 70%;
+        padding: 0 25%;
+        background-color: #381E40;
     }
     .text--container{
         width: 90%;
@@ -186,7 +191,15 @@ html, body {
         width: 96%;
     }  
 }
-/*TABLET NONE*/
+/*TABLET*/
+@media only screen and (min-width: 481px) and (max-width: 870px) {
+    .ink--img--container{
+        padding: 4% 0;
+    }
+    .ink--img {
+        width: 96%;
+    }  
+}
 
 /*MEMBERS SECTION*/
 .member--title {
